@@ -1,0 +1,11 @@
+{
+  "name": "userscript-template",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p dist && terser src/myscript.user.js -o dist/myscript.user.min.js --compress --mangle"
+  },
+  "devDependencies": {
+    "terser": "^5.26.0"
+  }
+}

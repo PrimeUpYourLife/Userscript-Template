@@ -1,0 +1,11 @@
+{
+  "project": "userscript-template",
+  "services": [
+    {
+      "name": "userscript",
+      "startCommand": "node server.js",
+      "installCommand": "npm install",
+      "buildCommand": "npm run build"
+    }
+  ]
+}
